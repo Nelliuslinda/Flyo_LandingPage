@@ -1,0 +1,149 @@
+/*Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/*Attribution*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*Root*/
+:root{ 
+    --darkblue--background: hsl(217, 28%, 15%);
+    --darkblue--main-background: hsl(218, 28%, 13%);
+    --darkblue--footer: hsl(216, 53%, 9%);
+    --darkblue--testimonials: hsl(219, 30%, 18%);
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --lightred: hsl(0, 100%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --raleway: 'Raleway', sans-serif;
+    --opensans: 'Open Sans', sans-serif;
+}
+
+/*h1, h2, h6, p*/
+h1, h2, h6, p{
+    color: var(--white);
+}
+
+body{ 
+    margin: 0px;
+}
+
+/*Header section*/
+header{
+    background-color: var(--darkblue--background);
+    clear: both;
+    overflow: auto;
+}
+
+/*Logo*/
+.logo img{
+    padding-top: 30px;
+    padding-left: 20px;
+    float: left;
+    width: 8%;
+}
+
+/*Navbar*/
+nav{
+    float: right;
+    padding-top: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block; 
+    padding: 25px;
+    font-size:15px; 
+    font-family: var(--raleway)
+}
+
+nav li a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+/*Hero section*/
+.hero{
+    position: relative;
+    min-height: 500px;
+    /* padding-top: 100px; */
+    background-color: var(--darkblue--background);
+    background-image:url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.introimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.hero h1, p{
+    text-align: center;
+}
+
+.hero h1{ 
+    font-family: var(--raleway);
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.hero p{
+    font-family: var(--opensans);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+button{
+    background-color: var(--blue);
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px 10px 50px;
+    font-family: var(--raleway);
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-weight: 700; 
+    font-size: 14px;
+}
+
+.btn-1{
+    color: var(--white);
+    margin: auto;
+}
+
+
+/*Benefits Section*/
+.benefits{ 
+    background-color: var(--darkblue--main-background);
+}
+
+/*Promotion Section*/
+.promotion{
+    background-color: var(--darkblue--main-background);
+}
+
+
+
+/*Testimonials Section*/
+.testimonials{
+    background-color: var(--darkblue--main-background);
+}
+
+/*Newsletter*/
+.newsletter{ 
+    background-color: var(--darkblue--main-background);
+}
+
+/*Footer*/
+footer{
+    background-color: var(--darkblue--footer);
+}
+
+footer li{
+    color: var(--white);
+    list-style: none;
+}
