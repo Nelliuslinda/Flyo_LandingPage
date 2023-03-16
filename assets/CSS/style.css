@@ -119,6 +119,31 @@ button{
 /*Benefits Section*/
 .benefits{ 
     background-color: var(--darkblue--main-background);
+    padding: 50px;
+}
+
+.benefit-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 100px;
+    padding: 100px;
+}
+
+.benefits h2 {
+    font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.benefits p {
+    font-family: var(--opensans);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.benefit-col-1{
+    justify-items: center;
 }
 
 /*Promotion Section*/
