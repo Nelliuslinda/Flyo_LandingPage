@@ -20,7 +20,13 @@
 }
 
 /*h1, h2, h6, p*/
-h1, h2, h6, p{
+h1, h2, h6 {
+    font-family: var(--raleway);
+    color: var(--white);
+}
+
+p{
+    font-family: var(--opensans);
     color: var(--white);
 }
 
@@ -85,13 +91,11 @@ nav li a{
 }
 
 .hero h1{ 
-    font-family: var(--raleway);
     font-weight: 700;
     line-height: 30px;
 }
 
 .hero p{
-    font-family: var(--opensans);
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -130,14 +134,12 @@ button{
 }
 
 .benefits h2 {
-    font-family: var(--raleway);
     font-weight: 700;
     font-size: 18px;
     text-align: center;
 }
 
 .benefits p {
-    font-family: var(--opensans);
     font-weight: 400;
     font-size: 14px;
 }
@@ -149,6 +151,13 @@ button{
 /*Promotion Section*/
 .promotion{
     background-color: var(--darkblue--main-background);
+}
+
+.promotion-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding: 100px;
 }
 
 
